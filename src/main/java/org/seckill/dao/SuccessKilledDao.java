@@ -3,11 +3,6 @@ package org.seckill.dao;
 import org.apache.ibatis.annotations.Param;
 import org.seckill.entity.SuccessKilled;
 
-/**
- * @Author:陈浩杰
- * @description: sad
- * @Date:Created in 13:07 2018/5/21
- */
 public interface SuccessKilledDao {
     /**
      * 插入购买明细，可过滤重复（联合主键）
